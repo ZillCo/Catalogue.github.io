@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="support.css">
+    <link rel="stylesheet" href="">
+    <Title>The Catalogue</Title>
+    <style>
+        *{
+            box-sizing: border-box;
+            /* width */
+            ::-webkit-scrollbar {
+                width: 5px;
+                height: 5px;
+            }
+            /* Track */
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+                border-radius: 10px;
+            }
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: #888;
+            }
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: #555; 
+            }
+
+            .column {
+                float: left;
+                width: 95%;
+                padding: 0px;
+                margin-left: 30px;
+                margin-top: 30px;
+            }
+            /* Clearfix (clear floats) */
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            .blue {
+                color: blue;
+            }
+            .check {
+                color: white;
+            }
+            .radios {
+                color: white;
+            }
+    </style>
+</head>
+    <body>
+        <div class="header">
+            <div class="topnav", class="active">
+                <a href="javascript:void(0);" class="active1"  onclick="myFunction()">
+                    <button type="button" class="Menu"></button>
+                </a>
+                <div id="myLinks">
+                    <a href="homepage.html">Home</a>
+                    <a href="support.html">Support</a>
+                    <a href="setting.html">Settings</a>
+                </div>
+            </div>
+            <button type="button" class="WebLogo">THE CATALOGUE</button>
+            <div class="header-right">
+                <a class="active" href="Index.html">log out</a></div>
+            <a class="Profile" href="profile.html"></button></div>
+
+    <script src="finale.js"></script>
+
+    <div class="column">
+            <div class="app">
+                <div class="textp">
+                    <h1>Settings</h1><h2>Email Preferences</h2>
+                    <form class="check">
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1">Keep me up to date with news and offers from Catalogue play</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2">I wish to receive email notifications when develeped reply to my reviews of their applications.</label><br>
+                    </form>
+                    <hr>
+                    <h2>Verification Preferences</h2><h2>Require Verification for:</h2>
+                    <form class="radios">
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">Purchases and app installs through play.google.com</label><br>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">Only app installs through play.google.com</label><br>             
+                    </form>
+                    <h4>To prevent un authorized purchases, you can require verification for all purchases (including in-app purchases) made through play.google.com on any device where you're signed in with this Google Account. This does not apply to purchases made through mobile apps. Requiring purchases verification is important if you share your devices with others or want to prevent purchases of kid-friendly content through play.google.com</h4>
+                    <button type="buttons" onclick="alert('Updating..')">Update</button>
+            </div></div>
+
+    </body>
+</html>

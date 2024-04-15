@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <Title>The Catalogue</Title>
+    <style>
+        *{
+            box-sizing: border-box;
+            /* width */
+            ::-webkit-scrollbar {
+                width: 5px;
+                height: 5px;
+            }
+            /* Track */
+            ::-webkit-scrollbar-track {
+                background: #f1f1f1;
+                border-radius: 10px;
+            }
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: #888;
+            }
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: #555; 
+            }
+
+            .column {
+                float: left;
+                width: 60%;
+                padding: 0px;
+                margin-left: 250px;
+                margin-top: 30px;
+            }
+            /* Clearfix (clear floats) */
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            .blue {
+                color: blue;
+            }
+            .check {
+                color: white;
+            }
+            .radios {
+                color: white;
+            }
+            .box {
+              background-color:grey;
+              width: 300px;
+              height: 60px;
+              padding: 2px;
+              margin: 5px;
+              text-align: left;
+            }
+            .view {
+              margin:70px;
+            }
+    </style>
+    <script src="finale.js"></script>
+</head>
+    <body>
+        <div class="header">
+            <div class="topnav", class="active">
+                <a href="javascript:void(0);" class="active1"  onclick="myFunction()">
+                    <button type="button" class="Menu"></button>
+                </a>
+                <div id="myLinks">
+                    <a href="homepage.html">Home</a>
+                    <a href="support.html">Support</a>
+                    <a href="setting.html">Settings</a>
+                </div>
+            </div>
+            <button type="button" class="WebLogo">THE CATALOGUE</button>
+            <div class="header-right">
+                <a class="active" href="Index.html">log out</a></div>
+            <a class="Profile" href="profile.html"></button></div>
+
+            <div class="column">
+            <div class="app">
+                <div class="textp">
+                    <div class="max-w-2xl mx-auto">
+    <div class="bg-zinc-900 rounded-lg p-4">
+      <div class="flex justify-between items-center mb-6">
+        <div class="flex items-center">
+          <img
+            class="w-16 h-16 rounded-full mr-4"
+            src="dp.jpg"
+            alt="Profile Avatar"
+          />
+          <div class="amo">
+            <h2>AomoriKenzo23</h2>
+            <p class="text-zinc-400">Aomori Kenzo</p>
+            <p class="text-sm text-zinc-500">🎮No information given.</p>
+          </div>
+        </div>
+        <div class="text-right">
+          <h3>Level 0</h3>
+          <p class="text-zinc-400">You can feature one of your Badges here.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <h3>Recent Activity</h3>
+          <div class="box">
+            <h3 style="color: black">Yu-Gi-Oh! Duel Links</h3>
+            <h4>19.5 hrs on record<br/>last played on 8 Nov,2023</h4>
+          </div>
+          <div class="box">
+            <h3 style="color: black;">Project Rhombus (Free)</h3>
+            <h4>0.1 hrs on record<br/>last played on 15 july,2023</h4>
+          </div>
+          <div class="box">
+            <h3 style="color: black;">Farlight 84</h3>
+            <h4>4.2 hrs on record<br/>last played on 27 Jun, 2023</h4>
+          </div>
+            <a href="#" class="view">View All Recently Played | Wishlist</a>
+        </div>
+        <div class="current">
+          <h3 align="center" style="margin-top: 30px;">Currently Offline</h3>
+          <p class="">Last Online 158 days ago</p>
+          <div class="mt-4">
+            <h4 class="">Badges</h4>
+            <p class="">Select one from your edit profile page.</p>
+          </div>
+          <div class="mt-4">
+            <h4 class="font-bold">Games</h4>
+            <p class="text-sm text-zinc-400">You have not played any games recently.</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6">
+        <h3 class="font-bold text-lg mb-2">Comments</h3>
+        <div class="flex items-center justify-between">
+          <input
+            type="text"
+            class="bg-zinc-800 rounded p-2 text-sm w-full mr-2"
+            placeholder="Add a comment"
+          />
+          <button>
+            Subscribe to thread
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div></div>
+    </body>
+</html>

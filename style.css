@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+/*background image*/
+    background-image: url("finalbg.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+}
+input[type="text"],input[type="password"]{
+    display: block;
+    margin: 15px;
+    padding: 10px 32px;
+    text-align: left;
+    border-radius: 5px;
+    text-align: center;
+    width: 70%;
+}
+.chckbx{
+    text-align: left;
+    font-size: 80%;
+    margin-top: -10px;
+    margin-bottom: 10px;;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container{
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center; 
+}
+/*create account button*/
+button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+button:hover{
+    opacity: 0.8;
+}
+.pswrd{
+    text-align: ;
+    font-size: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.createbtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: auto;
+    padding: 10px 18px;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    width:100%;
+}
+.Google{
+    background-color: white;
+    background-image: url("GLogo.png");
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 25px;
+    display: inline-block;
+
+    cursor: pointer;
+}
+.Google {
+    border-radius: 100%;
+}
